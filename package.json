@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/etchtag",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Etch timestamps and tag durations for scripts and CI receipts.",
+  "bin": {
+    "etchtag": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/etchtag.git"
+  },
+  "homepage": "https://theworker02.github.io/etchtag/",
+  "keywords": [
+    "etch",
+    "tag",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
